@@ -5,6 +5,10 @@ html {
     --color4: #E36414;   /* Oranje */
 }
 
+h1, h2, h3 {
+    font-family: "Galada";
+}
+
 main {
     color: var(--color3);
 }
