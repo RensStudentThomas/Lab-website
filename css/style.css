@@ -106,6 +106,7 @@ section {
     padding: 2rem 1rem;
 }
 
+/* hero */
 h1 {
     font-size: 2.8rem;
     margin: 1rem 0;
@@ -116,9 +117,18 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+/* sec2 */
 h2 {
     font-size: 2.6rem;
     margin-bottom: 1rem;
+}
+
+.sec-2 div, .sec-2 div a {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
 }
 
 .sec-2 p {
@@ -127,9 +137,9 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-h3 {
-    font-size: 1.8rem;
-}
+
+
+
 
 .copyright {
 font-size: 0.8rem;
