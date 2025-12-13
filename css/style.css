@@ -1,4 +1,5 @@
 html {
+    --color0: #fff;      /* Wit */
     --color1: #F5F1DC;   /* Licht-beige */
     --color2: #780116;   /* Rood */
     --color3: #102022;   /* Zwart */
@@ -13,21 +14,25 @@ html {
 }
 
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Brother1816', sans-serif;
+    line-height:1.5;
+    background-color: var(--color0);
+    color:var(--color3);
 }
 
 h1, h2, h3 {
     font-family: "Galada";
 }
 
-main {
-    color: var(--color3);
+img {
+    max-width: 100%;
+    display: block;
 }
 
 a {
@@ -43,7 +48,7 @@ header, .sec-2, .sec-4, footer {
     background-color: var(--color1);
 }
 
-.copyright{
-font-size:0.8rem;
-color:#666;
+
+.copyright {
+font-size: 0.8rem;
 }
