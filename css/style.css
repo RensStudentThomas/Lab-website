@@ -5,6 +5,17 @@ html {
     --color4: #E36414;   /* Oranje */
 }
 
+@font-face {
+    font-family: 'Brother1816';
+    src: url('/fonts/Brother1816-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Brother1816', sans-serif;
+}
+
 h1, h2, h3 {
     font-family: "Galada";
 }
