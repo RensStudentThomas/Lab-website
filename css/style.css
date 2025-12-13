@@ -202,10 +202,30 @@ h3 {
 
 /* sec4 */
 
-.sec-4 > div {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.merch-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
     gap: 1rem;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: var(--color0);
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+}
+
+.merch-slider:active {
+    cursor: grabbing;
+}
+
+.merch-slider div {
+    flex: 0 0 85%;
+    scroll-snap-align: center;
+}
+
+.merch-slider img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 /* sec5 */
