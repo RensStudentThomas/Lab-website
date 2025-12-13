@@ -12,6 +12,12 @@ html {
     font-style: normal;
 }
 
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
 body {
     font-family: 'Brother1816', sans-serif;
 }
@@ -35,4 +41,9 @@ header, footer {
 
 header, .sec-2, .sec-4, footer {
     background-color: var(--color1);
+}
+
+.copyright{
+font-size:0.8rem;
+color:#666;
 }
