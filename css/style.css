@@ -228,6 +228,21 @@ h3 {
     border-radius: 20px;
 }
 
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.slider-dots span {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color2);
+    border-radius: 50%;
+    opacity: 0.4;
+} 
+
 /* sec5 */
 
 form {
