@@ -91,15 +91,6 @@ header nav {
     height: 50px;
 }
 
-.hamburger {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-}
-
-.hamburger a {
-    font-size: 1rem;
-}
 /**/
 
 section {
@@ -121,6 +112,7 @@ h1 {
 h2 {
     font-size: 2.6rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .sec-2 div, .sec-2 div a {
@@ -248,7 +240,7 @@ footer nav {
 footer nav div {
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
+    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -260,4 +252,25 @@ footer nav a {
 
 .copyright {
     font-size: 0.8rem;
+}
+
+@media (min-width: 600px) {
+    .hamburger-menu {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }  
+
+    .hamburger-menu a {
+        font-size: 1rem;
+    }
+    
+    footer nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer nav div {
+        flex-direction: row;
+    }
 }
